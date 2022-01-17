@@ -1,6 +1,6 @@
-import { combineReducers } from "redux";
-import test from "./test";
+import { combineReducers } from 'redux';
+import steem from './steem';
 
 export default combineReducers({
-  test,
+  steem
 });
